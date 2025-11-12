@@ -4,8 +4,8 @@ pipeline{
 	stage('checkout'){
 	steps{
 	echo "Cloning repo"
-	git url:"https://github.com/kakisatvika/Registration-form.git",
-	branch:'master'
+	git url:"https://github.com/Akshithareddyk/week7.git",
+	branch:'main'
 	}
 	}
 	stage('Build'){
